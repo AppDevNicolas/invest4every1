@@ -1,0 +1,11 @@
+#API_URL = 'https://api.alpaca.markets'
+#API_URL = 'https://paper-api.alpaca.markets/v2'
+API_URL = 'https://paper-api.alpaca.markets'
+API_KEY = 'PK6K6XQGZK5WX1M19BTQ'
+API_SECRET = 'T8vND0uIRNqjO43Qe4NKAnPxszkRgfrgEc3lwL5z'
+#
+DB_HOST = 'localhost'
+DB_USER = 'postgres'
+DB_PASS = 'pg80120'
+DB_NAME = 'postgres'
+# DB_NAME = 'etfdb'
