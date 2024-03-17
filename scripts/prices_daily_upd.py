@@ -5,7 +5,7 @@ import yfinance as yf
 from datetime import datetime, timedelta
 #
 # -- This script inserts in the DB table sharedata the shares prices (daily)
-# -- It should be scheduled every market day
+# -- It should be scheduled on every market day
 #
 connection = psycopg2.connect(host=config.DB_HOST, database=config.DB_NAME, user=config.DB_USER, password=config.DB_PASS)
 
