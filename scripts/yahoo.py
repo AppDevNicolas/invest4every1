@@ -16,7 +16,7 @@ df = yf.download("AAPL", start, end)
 #hist = msft.history(period="max")
 hist = msft.history(period="1mo")
 
-# -- show pandas dataframe
+# -- show pandas dataframe for Apple
 print(df)
 # print(hist)
 # -- show csv
